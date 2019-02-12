@@ -1,0 +1,178 @@
+body {
+    background-color: rgb(130,201,171);
+    color: rgb(0,58,33);
+    font-family: sans-serif;
+    line-height: 0,2px
+} 
+    h1 {
+    color: brown;
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    } 
+    h2 {
+        color: rgb(108, 124, 80);
+    }   
+    h3 {
+        font-size: 1,8em;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    #header {
+    width:1000px;
+    display:flex;
+    }
+
+        .photo {
+            width:200px;
+            float:left;
+            position: relative;
+            padding-left:50px;
+            padding-top:20px;
+            
+        }
+        .name {
+            float:right;
+            width:650px;
+            position: relative;
+            padding-top:15px;
+            padding-left:5px;
+            margin-left: 15px;
+
+            
+        }
+    #navigation-ribbon {
+        width: 1000px;
+        height: 40px;
+        padding-top: 10px;
+        padding-left: 30px;
+        margin-top: 20px;
+        margin-left: 15px;
+        background-color: rgba(245, 226, 191, 0.904);
+        display:flex;
+    }
+        .nav1,.nav2,.nav3,.nav4{
+            flex:1;
+            color:brown;
+        }
+    #contact-info {
+        width: 1000px;
+        margin-left: 25px;
+        display: flex;
+        
+    }
+        .contact-title {
+            width:200px;
+            float:left;
+            padding-top:10px;
+            margin: 5px;
+            text-align: center;
+            background-color: rgb(176, 211, 196);
+            border: 5px ridge darkgreen;
+        }
+        .contact-section {
+            width:700px;
+            float:right;
+            padding-top:20px;
+            padding-left:15px;
+            margin:5px;
+            background-color: rgb(198, 202, 200);
+            border: 2px groove green;
+        }
+    #summary {
+        width:1000px;
+        margin-left: 20px;
+        display: flex;
+    }
+        .summary-title {
+            width:200px;
+            float:left;
+            padding-bottom:15px;
+            margin: 5px;
+            text-align: center;
+            background-color: rgb(176, 211, 196);
+            border: 5px ridge darkgreen;
+        }
+        .summary-section {
+            width:700px;
+            float:right;
+            padding-top:10px;
+            padding-left:25px;
+            margin:5px;
+            background-color: rgb(198, 202, 200);
+            border: 2px groove green;
+        }
+    #skills {
+        width:1000px;
+        margin-left: 15px;
+        display:flex;
+        
+    }
+        .skills-title {
+            width:200px;
+            float:left;
+            padding-top:30px;
+            margin: 8px;
+            text-align: center;
+            background-color: rgb(176, 211, 196);
+            border: 5px ridge darkgreen;
+    }
+        .skills-section {
+            width:700px;
+            float:right;
+            padding-top:10px;
+            padding-left:25px;
+            margin: 5px;
+            background-color: rgb(198, 202, 200);
+            border: 2px groove green;
+        }
+    #experience {
+        width:1000px;
+        margin-left: 15px;
+        display:flex;
+    }
+        .experience-title {
+            width:200px;
+            float:left;
+            padding-top:300px;
+            margin: 5px;
+            text-align: center;
+            background-color: rgb(176, 211, 196);
+            border: 5px ridge darkgreen;
+        }
+        .experience-section {
+            width:700px;
+            float:right;
+            padding-top:10px;
+            padding-right:5px;
+            padding-left:25px;
+            margin: 5px;
+            background-color: rgb(198, 202, 200);
+            border: 2px groove green;
+        }
+    #education {
+        width:1000px;
+        margin-left: 18px;
+        display:flex;
+    }
+        .education-title {
+            width:200px;
+            float:left;
+            padding-top:50px;
+            margin: 5px;
+            text-align: center;
+            background-color: rgb(176, 211, 196);
+            border: 5px ridge darkgreen;
+        }
+        .education-section {
+            width:700px;
+            float:right;
+            padding-top:10px;
+            padding-left:25px;
+            margin: 5px;
+            background-color: rgb(198, 202, 200);
+            border: 2px groove green;
+        }
+        
+
+
+
