@@ -1,0 +1,46 @@
+body {
+    font-family: "Arial", serif;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 10px;
+}
+#header {
+    background-color: rgb(245,241,241);
+    position: relative;
+    box-sizing: border-box;
+    padding:5px;
+
+}
+#header > h3 {
+    color: grey;     
+}
+#navigation-ribbon {
+    height: 160px;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.nav1,.nav2,.nav3,.nav4{
+    flex:1;
+    color:black;
+    font-weight: bold;
+}
+#wrapper {
+    display: flex;
+    flex-direction:column;
+}
+.practical,.industry {
+    flex:1;
+}
+#footer {
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+    background-color: rgb(75,45,115);
+    color: white;
+}
+.map,.about,.archives,.navigation {
+    flex:1;
+}
