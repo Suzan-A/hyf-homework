@@ -1,0 +1,44 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>LCW- Sign up 4</title>
+            <link rel="stylesheet" href="Step4- style.css">
+        </head>
+        <body>
+            <header class="page_header">
+                <a href="https://www.lcw.com/en-DK"><img class="page_header-logo" src="Images/LcWaikiki-logo.png" alt="LcWaikiki-logo"></a>
+                <nav id="navigation">
+                    <a class="nav1" href="https://www.lcw.com/en-DK/c/womens">WOMEN </a>
+                    <a class="nav2" href="https://www.lcw.com/en-DK/c/mens">MEN</a>
+                    <a class="nav3" href="https://www.lcw.com/en-DK/c/kids">KIDS</a>
+                    <a class="nav4" href="https://www.lcw.com/en-DK/c/baby">BABY</a>
+                </nav>
+            </header>
+            <main class="page_main">
+                <h1>Sign up to Lc Waikiki Custom Tailor</h1>
+                <h2 class="signup-step1">Step 4/4 - how can we reach you?</h2>
+                <h3>Progress</h3>
+                <progress value="90" max="100" class="progress-bar"></progress>
+                <p>Please fill in your payment data</p>
+                <form action="/signup" method="POST" class="signup">
+                    <label for="card-name"><h4>Name on card*</h4></label>
+                    <input type="text" required id="card-name" name="card-name">
+                    <label for="card-type"><h4>Card type*</h4></label>
+                        <select required class="card-type" name="card-type">
+                            <option value="Select">(Select your card type)</option>
+                            <option value="AF">Master Card</option>
+                            <option value="AX">Visa</option>
+                        </select>
+                    <label for="card-number"><h4>Credit card number*</h4></label>
+                        <input type="number" id="signup-card_number" name="card-number">
+                    <label for="expiry-month"><h4>Expiry month*</h4></label>
+                        <input type="number" required id="expiry-month" name="expiry-month">
+                    <label for="expiry-year"><h4>Expiry year*</h4></label>
+                        <input type="number" required id="expiry-year" name="expiry-year">
+                    <label for="ccv"><h4>CCV*</h4></label>
+                        <input type="number" required id="ccv" name="ccv">
+                    <button type="button">Submit</button>
+                </form>
+            </main>
+        </body>

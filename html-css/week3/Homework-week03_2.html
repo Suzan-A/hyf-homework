@@ -1,0 +1,46 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>LCW- Sign up 2</title>
+            <link rel="stylesheet" href="Step2- style.css">
+        </head>
+        <body>
+            <header class="page_header">
+                <a href="https://www.lcw.com/en-DK"><img class="page_header-logo" src="Images/LcWaikiki-logo.png" alt="LcWaikiki-logo"></a>
+                <nav id="navigation">
+                    <a class="nav1" href="https://www.lcw.com/en-DK/c/womens">WOMEN </a>
+                    <a class="nav2" href="https://www.lcw.com/en-DK/c/mens">MEN</a>
+                    <a class="nav3" href="https://www.lcw.com/en-DK/c/kids">KIDS</a>
+                    <a class="nav4" href="https://www.lcw.com/en-DK/c/baby">BABY</a>
+                </nav>
+            </header>
+            <main class="page_main">
+                <h1>Sign up to Lc Waikiki Custom Tailor</h1>
+                <h2 class="signup-step1">Step 2/4 - how can we reach you?</h2>
+                <h3>Progress</h3>
+                <progress value="40" max="100" class="progress-bar"></progress>
+                <p>We will probably need to stay in touch somehow. Let us know how we can reach you?</p>
+                <form action="/signup" method="POST" class="signup">
+                    <label for="email"><h4>Email*</h4></label>
+                        <input type="email" required id="signup-email" name="email">
+                    <label for="phone"><h4>phone</h4></label>
+                        <input type="number" id="signup-phone" name="phone">
+                    <label for="password"><h4>Password*</h4></label>
+                        <input type="password" required id="signup-password" name="password">
+                    <label for="repassword"><h4>Re-enter Password*</h4></label>
+                        <input type="password" required id="signup-repassword" name="repassword">
+                    <p>I want to sign up for the newsletter</p>
+                    <label>
+                        <input type="radio" name="news">Weekly news
+                    </label>
+                    <label>
+                        <input type="radio" name="news">Monthly news
+                    </label>
+                    <label>
+                        <input type="radio" name="news">Don't send me news
+                    </label>
+                    <a href="Homework-week03_3.html"><button type="button"> Next step</button></a>
+                </form>
+            </main>
+        </body>
